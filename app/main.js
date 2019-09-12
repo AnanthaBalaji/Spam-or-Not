@@ -8,7 +8,8 @@ createWindow=()=>{
         resizable: false,
         autoHideMenuBar: true,
         webPreferences:{
-            nodeIntegration:true
+            nodeIntegration:true,
+            devTools:false
         }
     })
     win.loadFile('index.html')
