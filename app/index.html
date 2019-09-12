@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Reenie+Beanie" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/spam.css" />
+    <title>Spam or Not</title>
+</head>
+
+<body>
+    <h2>Spam OR Not</h2>
+    <div class="container1 row">
+        <div class="inputContent">
+            <div class="group">
+                <form>
+                    <hr id="inputHr">
+                        <p id="inplabel">Text Message</p>
+                    <hr id="inputHr">
+                    <textarea id="inp" rows="10" cols="60" type="textarea" required></textarea>
+                    <center>
+                        <div>
+                            <button id="analyseBtn" type="button" class="btn btn-info" onclick="apiCall()">Lets Analyse</button>
+                            <button id="clearBtn" type="button" class="btn btn-danger" onclick="clearTxt()">Clear</button>
+                        </div>
+                    </center>
+                </form>
+            </div>
+        </div>
+        <div class="analysis">
+            <div class="group">
+                <hr>
+                    <p id="analysislabel">Analysis/Results</p>
+                <hr>
+                <div class="canvasDiv">
+                    <canvas id="myChart" ></canvas>
+                </div>
+                <h3 id="optext"></h3>
+            </div>
+        </div>       
+    </div>
+</body>
+<script src="./js/spam.js">
+</script>
+
+</html>
