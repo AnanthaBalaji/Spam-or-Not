@@ -3,6 +3,7 @@ The desktop application checks whether the SMS entered is apam or not.It takes a
 following the graph.
 
 <h1> Technologies </h1>
+
 <ul>
   <li> Front End</li>
      <ul>
@@ -19,7 +20,12 @@ following the graph.
 </ul>
 
 <h1> Screenshots</h1>
-![alt text](https://github.com/AnanthaBalaji/Spam-or-Not/blob/master/screenshots/demo%201.png)
-![alt text](https://github.com/AnanthaBalaji/Spam-or-Not/blob/master/screenshots/demo%202.png)
-![alt text](https://github.com/AnanthaBalaji/Spam-or-Not/blob/master/screenshots/demo%203.png)
-![alt text](https://github.com/AnanthaBalaji/Spam-or-Not/blob/master/screenshots/demo%204.png)
+
+![alt text](https://github.com/AnanthaBalaji/Spam-or-Not/blob/master/screenshots/demo1.png)
+![alt text](https://github.com/AnanthaBalaji/Spam-or-Not/blob/master/screenshots/demo2.png)
+![alt text](https://github.com/AnanthaBalaji/Spam-or-Not/blob/master/screenshots/demo3.png)
+![alt text](https://github.com/AnanthaBalaji/Spam-or-Not/blob/master/screenshots/demo4.png)
+
+<h1>Enhancements for V 2.0</h1>
+<ul>
+  <li> Make teh application that allows the user to custom load the dataset into the application and train the model</li></ul>
