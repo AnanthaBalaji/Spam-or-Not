@@ -1,7 +1,8 @@
-# Spam-or-Not
-The desktop application checks whether the SMS entered is apam or not
+# Spam-or-Not V 1.0
+The desktop application checks whether the SMS entered is apam or not.It takes a SMS text as an input and passes ot to the API to analyse the result. The UI shows the Chart which plots the percentage of SPAM and HAM message. The final output is displayed 
+following the graph.
 
-# Technologies
+<h1> Technologies </h1>
 <ul>
   <li> Front End</li>
      <ul>
@@ -16,4 +17,5 @@ The desktop application checks whether the SMS entered is apam or not
       <li> Algorithm: Naive Bayes</li>
     </ul>
 </ul>
-  
+
+<h1> Screenshots</h1>
