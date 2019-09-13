@@ -19,3 +19,7 @@ following the graph.
 </ul>
 
 <h1> Screenshots</h1>
+![alt text](https://github.com/AnanthaBalaji/Spam-or-Not/blob/master/screenshots/demo%201.png)
+![alt text](https://github.com/AnanthaBalaji/Spam-or-Not/blob/master/screenshots/demo%202.png)
+![alt text](https://github.com/AnanthaBalaji/Spam-or-Not/blob/master/screenshots/demo%203.png)
+![alt text](https://github.com/AnanthaBalaji/Spam-or-Not/blob/master/screenshots/demo%204.png)
