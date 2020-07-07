@@ -13,7 +13,7 @@
     "axiom": "^0.1.6",
     "axios": "^0.19.0",
     "babel-cli": "^6.26.0",
-    "electron": "^6.0.8",
+    "electron": "^9.1.0",
     "request": "^2.88.0"
   },
   "devDependencies": {
